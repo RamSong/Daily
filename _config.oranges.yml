@@ -85,11 +85,6 @@ navbar:
     path: /
     key: home
   -
-    name: 文章
-    enable: true
-    path: /archives/
-    key: archives
-  -
     name: 分类
     enable: false
     path: /categories/
