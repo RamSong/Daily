@@ -74,8 +74,8 @@ comments:
   
   # waline https://waline.js.org
   waline:
-    enable: false
-    serverURL:
+    enable: true
+    serverURL: https://apicomment.ram.wang/
 
 # 主题页面导航栏
 navbar:
@@ -174,7 +174,7 @@ footer:
     # 一般用来显示根据各种场景需要切换的文本，如时间年份
     # 如：{thisYear} 会被替换为今年年份
     -
-      name: Copyright © {thisYear} Oranges
+      name: Copyright © {thisYear} Ramsong
       path: https://github.com/zchengsite/hexo-theme-oranges
     -
       name: Theme by Oranges | Powered by Hexo

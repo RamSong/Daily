@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Ramsong&#39;s Daily</title>
+  <icon>https://ram.wang/icon.png</icon>
+  
+  <link href="https://ram.wang/atom.xml" rel="self"/>
+  
+  <link href="https://ram.wang/"/>
+  <updated>2023-05-01T03:48:15.913Z</updated>
+  <id>https://ram.wang/</id>
+  
+  <author>
+    <name>Ram Song</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://ram.wang/202305/20/40/"/>
+    <id>https://ram.wang/202305/20/40/</id>
+    <published>2023-05-20T06:55:40.269Z</published>
+    <updated>2023-05-01T03:48:15.913Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt;</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+</feed>
