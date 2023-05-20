@@ -3,18 +3,18 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: Ramsong's Daily
 subtitle: ''
-description: ''
-keywords:
-author: John Doe
-language: en
-timezone: ''
+description: 'Ramsong的日记本'
+keywords: Ramsong,Blog.daily
+author: Ram Song
+language: zh-CN
+timezone: 'Asia/Shanghai'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com
-permalink: :year/:month/:day/:title/
+url: https://ram.wang
+permalink: :year:month/:day/:second/
 permalink_defaults:
 pretty_urls:
   trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
@@ -70,6 +70,27 @@ default_category: uncategorized
 category_map:
 tag_map:
 
+#search
+search:
+  path: search.xml
+  field: post
+  content: true
+  
+#rss
+feed:
+  enable: true
+  type: atom
+  path: atom.xml
+  limit: 20
+  hub:
+  content:
+  content_limit: 140
+  content_limit_delim: ' '
+  order_by: -date
+  icon: icon.png
+  autodiscovery: true
+  template:
+  
 # Metadata elements
 ## https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta
 meta_generator: true
